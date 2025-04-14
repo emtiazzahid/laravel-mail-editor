@@ -1,11 +1,11 @@
 <?php
 
-namespace Qoraiche\MailEclipse\Utils;
+namespace EmtiazZahid\MailEclipse\Utils;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\View;
-use Qoraiche\MailEclipse\MailEclipse;
+use EmtiazZahid\MailEclipse\MailEclipse;
 
 class TemplateSkeletons
 {

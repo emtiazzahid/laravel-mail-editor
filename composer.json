@@ -1,5 +1,5 @@
 {
-    "name": "qoraiche/laravel-mail-editor",
+    "name": "emtiazzahid/laravel-mail-editor",
     "description": "Laravel Mailable Editor",
     "license": "MIT",
     "authors": [
@@ -7,9 +7,14 @@
             "name": "yassine qoraiche",
             "email": "qoraicheofficiel@hotmail.com",
             "homepage": "https://github.com/qoraiche"
+        },
+        {
+            "name": "emtiaz zahid",
+            "email": "emtiazzahid@gmail.com",
+            "homepage": "https://github.com/emtiazzahid"
         }
     ],
-    "homepage": "https://github.com/Qoraiche/laravel-mail-editor",
+    "homepage": "https://github.com/emtiazzahid/laravel-mail-editor",
     "keywords": [
         "Laravel",
         "mailEclipse",
@@ -20,33 +25,38 @@
         "markdown"
     ],
     "require": {
-        "illuminate/support": "^9.0|^10.0",
-        "reecem/mocker": "^1.1",
-        "laravel/legacy-factories": "^1.3"
+        "illuminate/support": "^12.8",
+        "reecem/mocker": "dev-master",
+        "laravel/legacy-factories": "^1.4"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.5.10",
-        "mockery/mockery": "^1.4.4",
-        "orchestra/testbench": "^7.0",
-        "sempro/phpunit-pretty-print": "^1.0"
+        "phpunit/phpunit": "^11.5|^12.1",
+        "mockery/mockery": "^1.6.12",
+        "orchestra/testbench": "^10.2"
     },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/emtiazzahid/mocker"
+    }
+    ],
     "autoload": {
         "psr-4": {
-            "Qoraiche\\MailEclipse\\": "src/"
+            "EmtiazZahid\\MailEclipse\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Qoraiche\\MailEclipse\\Tests\\": "tests"
+            "EmtiazZahid\\MailEclipse\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Qoraiche\\MailEclipse\\MailEclipseServiceProvider"
+                "EmtiazZahid\\MailEclipse\\MailEclipseServiceProvider"
             ],
             "aliases": {
-                "MailEclipse": "Qoraiche\\MailEclipse\\Facades\\MailEclipse"
+                "MailEclipse": "EmtiazZahid\\MailEclipse\\Facades\\MailEclipse"
             }
         }
     }

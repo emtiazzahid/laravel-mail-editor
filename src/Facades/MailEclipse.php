@@ -1,9 +1,9 @@
 <?php
 
-namespace Qoraiche\MailEclipse\Facades;
+namespace EmtiazZahid\MailEclipse\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Qoraiche\MailEclipse\MailEclipse as MailEclipseParent;
+use EmtiazZahid\MailEclipse\MailEclipse as MailEclipseParent;
 
 /**
  * @method static \Illuminate\Support\Collection getMailables()
@@ -25,7 +25,7 @@ use Qoraiche\MailEclipse\MailEclipse as MailEclipseParent;
  * @method static void|string renderPreview($simpleview, $view, $template = false, $instance = null)
  * @method static void sendTest(string $name, string $recipient)
  *
- * @see \Qoraiche\MailEclipse\MailEclipse
+ * @see \EmtiazZahid\MailEclipse\MailEclipse
  */
 class MailEclipse extends Facade
 {

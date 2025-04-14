@@ -1,10 +1,10 @@
 <?php
 
-namespace Qoraiche\MailEclipse;
+namespace EmtiazZahid\MailEclipse;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Qoraiche\MailEclipse\Command\VendorPublishCommand;
+use EmtiazZahid\MailEclipse\Command\VendorPublishCommand;
 
 class MailEclipseServiceProvider extends ServiceProvider
 {
@@ -47,7 +47,7 @@ class MailEclipseServiceProvider extends ServiceProvider
     private function routeConfiguration()
     {
         return [
-            'namespace' => 'Qoraiche\MailEclipse\Http\Controllers',
+            'namespace' => 'EmtiazZahid\MailEclipse\Http\Controllers',
             'prefix' => config('maileclipse.path'),
             'middleware' => 'maileclipse',
         ];

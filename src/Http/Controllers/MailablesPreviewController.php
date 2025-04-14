@@ -1,12 +1,12 @@
 <?php
 
-namespace Qoraiche\MailEclipse\Http\Controllers;
+namespace EmtiazZahid\MailEclipse\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\App;
-use Qoraiche\MailEclipse\Facades\MailEclipse;
-use Qoraiche\MailEclipse\Http\Exceptions\PreviewErrorException;
+use EmtiazZahid\MailEclipse\Facades\MailEclipse;
+use EmtiazZahid\MailEclipse\Http\Exceptions\PreviewErrorException;
 
 class MailablesPreviewController extends Controller
 {

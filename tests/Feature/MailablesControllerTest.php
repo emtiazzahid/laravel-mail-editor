@@ -1,9 +1,9 @@
 <?php
 
-namespace Qoraiche\MailEclipse\Tests\Feature;
+namespace EmtiazZahid\MailEclipse\Tests\Feature;
 
 use Illuminate\Support\Facades\Config;
-use Qoraiche\MailEclipse\Tests\TestCase;
+use EmtiazZahid\MailEclipse\Tests\TestCase;
 
 class MailablesControllerTest extends TestCase
 {
